@@ -1,0 +1,78 @@
+.box{
+    padding: 10px 50px;
+    margin: 25px;
+    position: relative;
+}
+.container{
+    border: 1px solid black;
+    padding: 30px;
+    position: absolute;
+    align-items: center;
+    margin-left: 100px;
+    background-color: gray;
+}
+.parent{
+    background-color: lavender;
+    padding-left: 5px;
+    height: auto;
+}
+
+.title{
+    text-align: center;
+}
+.parent{
+    border-style: solid black 1px !important;
+    text-align: center;
+    justify-content: center;
+    margin-top: 0px;
+    margin-left: -0.5px;
+    background-color: lightgray;
+}
+.child{
+
+    justify-content: left;
+    width: 100px;
+    height: 400px;
+    left: -12px;
+    margin: 0%;
+    border-right: 1px solid black;
+ } 
+ .child1 {
+    border: 1px solid black;
+    justify-content: center;
+    align-items: center;
+    width: 160px;
+    height: 160px;
+    margin-top: 20%;
+    margin-left: 30%;
+ }
+ .child2{
+    border: 1px solid black;
+    justify-content: center;
+    align-items: center;
+    width: 160px;
+    height: 160px;
+    margin-top: 0%;
+    margin-left: 0%;
+    border-radius: 40%;
+ }
+
+span{
+    justify-content: left;
+}
+.mainbox{
+    border: 1px solid black;
+    padding: 0px;
+}
+.centre{
+    text-align: center;
+}
+
+
+label{
+    padding: 10px 0px 10px 10px;
+    text-align: right;
+}
+input{
+    align-content: center;
+}
